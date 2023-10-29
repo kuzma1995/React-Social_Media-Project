@@ -1,0 +1,34 @@
+.login-container {
+    width: 300px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    margin: 4rem auto;
+
+    background: rgb(2,0,36);
+    background: -moz-linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(94,94,198,1) 0%, rgba(30,163,190,1) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(94,94,198,1) 0%, rgba(30,163,190,1) 100%);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(94,94,198,1) 0%, rgba(30,163,190,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#020024",endColorstr="#1ea3be",GradientType=1);
+    color: #fff;
+    letter-spacing: 1.5px;
+    border-radius: 20px;
+}
+
+.login-container button {
+    cursor: pointer;
+    padding: 0.2rem 0.4rem;
+    border: 3px solid rgba(94,94,198,1);
+    border-radius: 10px;
+    background: rgb(202, 217, 236);
+    font-weight: 700;
+}
+
+.login-container button:hover {
+    border: 3px solid rgb(202, 217, 236);
+    background: rgba(94,94,198,1);
+    color: #fff;
+}

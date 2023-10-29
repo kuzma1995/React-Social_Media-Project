@@ -1,0 +1,53 @@
+.post-container {
+    width: 500px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin: 3rem auto;
+    box-shadow: 1px 1px rgba(94,94,198,1), -0.3em 0.3em rgba(30,163,190,1);;
+    border-radius: 20px;
+    padding: 3rem 1rem;
+    box-sizing: border-box;
+    background: rgb(2,0,36);
+    background: -moz-linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(94,94,198,1) 0%, rgba(30,163,190,1) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(94,94,198,1) 0%, rgba(30,163,190,1) 100%);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(94,94,198,1) 0%, rgba(30,163,190,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#020024",endColorstr="#1ea3be",GradientType=1);
+    color: #fff;
+    position: relative;
+}
+
+.post__title {
+    position: absolute;
+    top: 3rem;
+    font-size: 1.2rem;
+}
+
+.post__body {
+    font-size: 1.1rem;
+}
+
+.post__footer {
+    position: absolute;
+    top: 12rem;
+    font-size: 0.8rem;
+}
+
+.post__footer button {
+    width: 30px;
+    height: 30px;
+    font-size: 1.1rem;
+    text-align: middle;
+    background-color: #fff;
+    border: 3px solid rgba(30,163,190,1);
+    border-radius: 3px;
+    margin: 0.5rem 0;
+}
+
+.post__footer button:hover {
+    background-color: rgba(30,163,190,1);
+    border: 3px solid #fff;
+}

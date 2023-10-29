@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 8rem;
+    background: rgb(2,0,36);
+    background: -moz-linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(94,94,198,1) 0%, rgba(30,163,190,1) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(94,94,198,1) 0%, rgba(30,163,190,1) 100%);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(94,94,198,1) 0%, rgba(30,163,190,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#020024",endColorstr="#1ea3be",GradientType=1);
+    color: #fff;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1rem;
+}
+
+.navbar__links {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10rem;
+}
+
+.navbar__links a {
+    color: #fff;
+    letter-spacing: 0.1rem;
+    text-decoration: none;
+}
+
+.navbar__links a:hover {
+    text-shadow: 0.3px 0.5px;
+}
+
+.navbar__user-info {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+}
+
+.navbar__user-info p {
+    cursor: pointer;
+}
+
+.navbar__user-info p:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.navbar__user-info img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.navbar__user-info img:hover {
+    border: 0.1px solid rgba(30,163,190,1);
+    box-sizing: border-box;
+}
+
+.navbar__user-info button {
+    padding: 0.2rem 0.3rem;
+    border: none;
+    background: #fff;
+    border-radius: 30px;
+    cursor: pointer;
+    color: rgba(30,163,190,1);
+    box-sizing: border-box;
+}
+
+.navbar__user-info button:hover {
+    cursor: pointer;
+    background: rgba(30,163,190,1);
+    color: #fff;
+    border: 0.1px solid #fff;
+    box-sizing: border-box;
+}

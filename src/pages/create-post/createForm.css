@@ -1,0 +1,73 @@
+body {
+    background: rgb(202, 217, 236);
+}
+
+.form-container {
+    width: 400px;
+    margin: 4rem auto;
+    border-radius: 10px;
+
+    background: rgb(2,0,36);
+    background: -moz-linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(94,94,198,1) 0%, rgba(30,163,190,1) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(94,94,198,1) 0%, rgba(30,163,190,1) 100%);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(94,94,198,1) 0%, rgba(30,163,190,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#020024",endColorstr="#1ea3be",GradientType=1);
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    
+}
+
+.form input {
+    width: 200px;
+    height: 1.5rem;
+    padding: 0.2rem;
+    border-radius: 8px;
+    background: lightsteelblue;
+    color: #fff;
+    font-size: 18px;
+}
+
+.form .title {
+    margin-bottom: 2rem;
+    padding: 0.3rem;
+    border: none;
+}
+
+.form textarea {
+    width: 200px;
+    height: 4rem;
+    padding: 0.3rem;
+    border-radius: 8px;
+    background: lightsteelblue;
+    resize: none;
+    color: #fff;
+    margin-bottom: 1rem;
+    font-size: 14px;
+    border: none;
+}
+
+.form .btn {
+    font-size: 13px;
+    color: rgba(94,94,198,1);
+    font-weight: 800;
+    height: 2rem;
+    width: 80px;
+    border: none;
+    cursor: pointer;
+}
+
+.form .btn:hover {
+    background-color: rgba(94,94,198,1);
+    color: lightsteelblue;
+    border: 0.1px solid white;
+}
+
+::placeholder {
+    color: lightslategrey;
+}
